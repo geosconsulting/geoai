@@ -1,0 +1,9 @@
+data/geo-1.jpg
+data/geo-2.jpg
+data/geo-3.jpg
+data/geo-4.jpg
+data
+.ipynb_checkpoints
+.idea
+.idea/*
+poste/__pycache__/*

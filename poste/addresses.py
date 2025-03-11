@@ -1,0 +1,1 @@
+addresses = ['viale Marconi 12, Roma, Italia', 'Viale Beethoven, 36, 00144 Roma RM', 'Stazione Termini, Roma', 'Piazza Vittorio Emanuele II, 1, 00187 Roma RM']

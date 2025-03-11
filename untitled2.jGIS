@@ -1,0 +1,75 @@
+{
+  "layerTree": [
+    "eca07783-c999-4c16-9ebf-7a364d459db0",
+    "4b0cbc89-44cc-482c-b92c-5a445c442644"
+  ],
+  "layers": {
+    "4b0cbc89-44cc-482c-b92c-5a445c442644": {
+      "name": "Custom Shapefile Layer",
+      "parameters": {
+        "color": {
+          "fill-color": "#cc33b0",
+          "stroke-color": "#3399CC",
+          "stroke-line-cap": "round",
+          "stroke-line-join": "round",
+          "stroke-width": 1.0
+        },
+        "opacity": 1.0,
+        "source": "2268bb0c-fb2f-4d20-b48c-0c44cdd44607",
+        "symbologyState": {
+          "renderType": "Single Symbol"
+        },
+        "type": "line"
+      },
+      "type": "VectorLayer",
+      "visible": true
+    },
+    "eca07783-c999-4c16-9ebf-7a364d459db0": {
+      "name": "OpenStreetMap.Mapnik Layer",
+      "parameters": {
+        "source": "53802dce-61bd-46e7-a398-bd92df0daba9"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      1722733.9905331621,
+      4933986.684480659,
+      1802467.5714171233,
+      4967396.595044221
+    ],
+    "latitude": 40.58070877986651,
+    "longitude": 15.833712213509758,
+    "pitch": 0.0,
+    "projection": "EPSG:3857",
+    "zoom": 11.952725138175355
+  },
+  "sources": {
+    "2268bb0c-fb2f-4d20-b48c-0c44cdd44607": {
+      "name": "Custom Shapefile Source",
+      "parameters": {
+        "attribution": "",
+        "encoding": "UTF-8",
+        "path": "output.zip",
+        "projection": "WGS84"
+      },
+      "type": "ShapefileSource"
+    },
+    "53802dce-61bd-46e7-a398-bd92df0daba9": {
+      "name": "OpenStreetMap.Mapnik",
+      "parameters": {
+        "attribution": "(C) OpenStreetMap contributors",
+        "maxZoom": 19.0,
+        "minZoom": 0.0,
+        "provider": "OpenStreetMap",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    }
+  }
+}
