@@ -7,3 +7,10 @@ data
 .idea
 .idea/*
 poste/__pycache__/*
+sentinel2_bands/*
+*.xls
+*.csv
+*.xlsx
+*.tif
+*.geojson
+*.shp
